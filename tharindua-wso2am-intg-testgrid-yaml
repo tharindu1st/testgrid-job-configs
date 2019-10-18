@@ -33,7 +33,7 @@ infrastructureConfig:
             ProductName: "wso2-apim"
 scenarioConfigs:
   - testType: TESTNG
-    remoteRepository: "https://github.com/wso2/apim-test-integration.git"
+    remoteRepository: "https://github.com/tharindu1st/apim-test-integration.git"
     name: integrationtests
     description: "integration tests"
     file: integrationtests/run-scenario.sh
@@ -49,7 +49,7 @@ scenarioConfigs:
       SQL_DRIVERS_LOCATION_UNIX: /opt/testgrid/sql-drivers/
       SQL_DRIVERS_LOCATION_WINDOWS: /testgrid/sql-drivers
       DBUsername: wso2carbon
-      TEST_MODE: RELEASE
+      TEST_MODE: SNAPSHOT
       USE_CUSTOM_TESTNG: "FALSE"
       WUM_PRODUCT_VERSION: 3.0
       WUM_CHANNEL: full
