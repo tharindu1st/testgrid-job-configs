@@ -11,8 +11,6 @@ infrastructureConfig:
   includes:
     - CentOS-7.5
     - Postgres-10.5
-    - CorrettoJDK-8
-    - OracleJDK-8
     - OPEN_JDK8
   provisioners:
     - name: dev-wso2am-intg-deployment
