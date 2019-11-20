@@ -10,10 +10,16 @@ infrastructureConfig:
     - JDK : ORACLE_JDK8
   includes:
     - ADOPT_OPEN_JDK8
+    - CorrettoJDK-8
+    - OracleJDK-8
+    - Ubuntu-18.04
     - CentOS-7.5
     - MySQL-5.7
+    - MySQL-8.0
     - SQLServer-SE-13.00
+    - SQLServer-SE-14.00
     - Oracle-SE2-12.1
+    - Oracle-SE2-11.1
   provisioners:
     - name: dev-wso2am-intg-deployment
       remoteRepository: "https://github.com/wso2/testgrid"
@@ -49,9 +55,9 @@ scenarioConfigs:
       SQL_DRIVERS_LOCATION_UNIX: /opt/testgrid/sql-drivers/
       SQL_DRIVERS_LOCATION_WINDOWS: /testgrid/sql-drivers
       DBUsername: wso2carbon
-      TEST_MODE: RELEASE
+      TEST_MODE: SNAPSHOT
       USE_CUSTOM_TESTNG: "FALSE"
-      WUM_PRODUCT_VERSION: 3.0
+      WUM_PRODUCT_VERSION: 3.1.0
       WUM_CHANNEL: full
       PRODUCT_GIT_BRANCH: "master"
       LATEST_PRODUCT_RELEASE_API: https\://wso2.org/jenkins/job/products/job/product-apim/lastRelease/api/
