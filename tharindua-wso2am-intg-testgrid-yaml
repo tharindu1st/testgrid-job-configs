@@ -11,11 +11,11 @@ infrastructureConfig:
   includes:
     - CentOS-7.5
     - OracleJDK-8
-    - MySQL-8.0
+#    - MySQL-8.0
     - MySQL-5.7
-    - Oracle-SE2-12.1
-    - SQLServer-SE-14.00
-    - Postgres-10.5
+#    - Oracle-SE2-12.1
+#    - SQLServer-SE-14.00
+#    - Postgres-10.5
   provisioners:
     - name: dev-wso2am-intg-deployment
       remoteRepository: "https://github.com/wso2/testgrid"
