@@ -1,7 +1,7 @@
 # TestGrid Test Configuration Parameters
 # TODO use dash as the separator instead of camelCase.
 version: '0.9'
-emailToList: "harshak@wso2.com,tharindua@wso2.com,bhathiya@wso2.com,samitha@wso2.com"
+emailToList: "harshak@wso2.com,tharindua@wso2.com,bhathiya@wso2.com,krishanw@wso2.com,mushthaq@wso2.com"
 infrastructureConfig:
   iacProvider: CLOUDFORMATION
   infrastructureProvider: AWS
