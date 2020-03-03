@@ -7,15 +7,15 @@ infrastructureConfig:
   infrastructureProvider: AWS
   containerOrchestrationEngine: None
   parameters:
-    - JDK : OPEN_JDK11
+    - JDK : OracleJDK-8
   includes:
     - CentOS-7.5
-    - OPEN_JDK11
+    - OracleJDK-8
     - MySQL-8.0
-#    - MySQL-5.7
-#    - Oracle-SE2-12.1
-#    - SQLServer-SE-14.00
-#    - Postgres-10.5
+    - MySQL-5.7
+    - Oracle-SE2-12.1
+    - SQLServer-SE-14.00
+    - Postgres-10.5
   provisioners:
     - name: dev-wso2am-intg-deployment
       remoteRepository: "https://github.com/wso2/testgrid"
