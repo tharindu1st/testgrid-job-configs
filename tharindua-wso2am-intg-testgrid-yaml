@@ -1,7 +1,7 @@
 # TestGrid Test Configuration Parameters
 # TODO use dash as the separator instead of camelCase.
 version: '0.9'
-emailToList: "harshak@wso2.com,tharindua@wso2.com,bhathiya@wso2.com,krishanw@wso2.com,mushthaq@wso2.com,niron@wso2.com"
+emailToList: "tharindua@wso2.com,bhathiya@wso2.com,krishanw@wso2.com,mushthaq@wso2.com,niron@wso2.com"
 infrastructureConfig:
   iacProvider: CLOUDFORMATION
   infrastructureProvider: AWS
@@ -51,7 +51,7 @@ scenarioConfigs:
       SQL_DRIVERS_LOCATION_UNIX: /opt/testgrid/sql-drivers/
       SQL_DRIVERS_LOCATION_WINDOWS: /testgrid/sql-drivers
       DBUsername: wso2carbon
-      TEST_MODE: SNAPSHOT
+      TEST_MODE: RELEASE
       USE_CUSTOM_TESTNG: "FALSE"
       WUM_PRODUCT_VERSION: 3.0
       WUM_CHANNEL: full
