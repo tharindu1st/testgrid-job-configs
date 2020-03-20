@@ -53,7 +53,7 @@ scenarioConfigs:
       SQL_DRIVERS_LOCATION_UNIX: /opt/testgrid/sql-drivers/
       SQL_DRIVERS_LOCATION_WINDOWS: /testgrid/sql-drivers
       DBUsername: wso2carbon
-      TEST_MODE: SNAPSHOT
+      TEST_MODE: RELEASE
       USE_CUSTOM_TESTNG: "FALSE"
       WUM_PRODUCT_VERSION: 3.0
       WUM_CHANNEL: full
