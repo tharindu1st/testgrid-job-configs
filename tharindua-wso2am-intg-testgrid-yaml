@@ -11,6 +11,7 @@ infrastructureConfig:
   includes:
     - CentOS-7.5
     - OracleJDK-8
+    - ADOPT_OPEN_JDK11
     - MySQL-8.0
     - MySQL-5.7
     - Oracle-SE2-12.1
